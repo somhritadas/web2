@@ -4,7 +4,7 @@ class Employee:
     def showDetails(self):
         print("this is an employee")
 
-class Programmer(Employee):
+class Programmer(Member):
     Language=("python")
 
     def getLanguage(self):
@@ -12,14 +12,14 @@ class Programmer(Employee):
     
     def showDetails(self):
         print("this is a programmer")
-e=Employee()
+e=Member()
 p=Programmer()
 p.showDetails()
 e.showDetails()
 print(p.company)
 
 
-class Employee:
+class Member:
     company="visa"
     ecode= 120
     
