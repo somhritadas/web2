@@ -2,7 +2,7 @@ class Employee:
     company="google"
 
     def showDetails(self):
-        print("this is an employee")
+        print("this is just an employee")
 
 class Programmer(Member):
     Language=("python")
