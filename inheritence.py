@@ -41,7 +41,7 @@ print(p.company)
 
 #multiple inheritence
 class Employee:
-    company="visa"
+    company="VISA"
     ecode= 120
     
 class Freelancer:
@@ -56,7 +56,7 @@ class Programmer(Employee,Freelancer):
 #multilevel inheritance
 
 class person:
-    country="india"
+    country="INDIA"
 
     def takeBreath(self):
         print("i am breathing")
